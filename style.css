@@ -1,0 +1,313 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 600px){
+    body{
+        background-color: papayawhip;
+    }
+    @font-face {
+        font-family: 'MyCustomFont';
+        src:url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'MyFont';
+        src:url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype')
+      } 
+    .section1{
+        display: block;
+        margin: auto;
+        margin-top: 4rem;
+        width: 750px;
+        background-color: white ;
+        border-radius: 1rem;
+        padding-bottom: 1rem;
+    }
+    .section2{
+        width: 680px;
+        margin-left: 1.95rem;
+        margin-right: 2rem;
+        margin-top: 48px;
+    }
+    .head{
+        margin: auto;
+        border-radius: 2rem;
+    }
+    img{
+        height: 300px;
+        width: 100%;
+        padding-top: 30px;
+    }
+    h1{
+        padding: 1.5rem 0rem 1rem 0rem;
+        font-family: 'MyCustomFont';
+        color: rgb(36, 34, 34);
+    }
+    .p1{
+        font-family: 'MyFont';
+        font-size: 16px;
+        color:  rgb(36, 34, 34);
+        padding-bottom: 1rem;
+        letter-spacing: 0.1px;
+    }
+    .section3{
+        background-color: rgba(247, 168, 181, 0.24);
+        border-radius: 0.7rem;
+        font-family: 'MyFont';
+    }
+    h3{
+        
+        padding: 1rem 1.2rem ;
+        color: rgb(107, 11, 59);
+        font-size: 19px;
+    }
+    .subsec3{
+        margin-left: 2rem;
+        padding-bottom: 14px;
+    }
+    li{
+        font-size: 17px;
+        color: rgb(36, 34, 34);
+        padding-bottom: 13px;
+        
+    }
+    .subsec3 li::marker {
+        color:rgb(107, 11, 59) ;
+    }
+    span.sp1{
+        font-size: 17px;
+        font-weight: bold; 
+    }
+    h2{
+        font-family: 'MycustomFont';
+        color: rgb(148, 64, 26);
+        letter-spacing: 2px;
+        padding-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    .subsec4{
+        margin-left: 0.7rem;
+        padding-bottom: 14px;
+        font-family: 'MyFont';
+    }
+    .subsec4 li::marker {
+        color:rgb(148, 64, 26);
+    }
+    .subsec5{
+        margin-left: 1.5rem;
+        padding-bottom: 14px;
+        font-family: 'MyFont';
+    }
+    span.sp5{
+        font-size: 18px;
+        font-weight: bold; 
+    }
+    .sec6{
+        font-family: 'MyFont';
+        padding-bottom: 1rem;
+    }
+    .p6{
+        font-family: 'MyFont';
+        padding: 1rem 0rem 0.7rem 2rem;
+    }
+    span.span61{
+        padding-left: 39%;
+        color:rgb(148, 64, 26);
+        font-weight: bold;
+    }
+    span.span62{
+        padding-left: 42%;
+        color:rgb(148, 64, 26);
+        font-weight: bold;
+    }
+    span.span63{
+        padding-left: 41%;
+        color:rgb(148, 64, 26);
+        font-weight: bold;
+    }
+    span.span64{
+        padding-left: 44.5%;
+        color:rgb(148, 64, 26);
+        font-weight: bold;
+    }
+    .centered-link {
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+        padding-top: 2rem;
+        font-family: 'MyFont';
+        font-size: 20px;
+        color:rgb(148, 64, 26) ;
+      }
+      /* Unvisited link */
+    a:link {
+    color: rgb(148, 64, 26);
+    text-decoration: none;
+    }
+    a:visited {
+    color: rgb(126, 87, 25);
+    }
+    a:hover {
+    color: rgb(49, 47, 47);
+    text-decoration: underline;
+    }
+    a:active {
+    color: green;
+    }
+    
+}
+@media screen and (max-width: 599px){
+    body{
+        background-color: papayawhip;
+    }
+    @font-face {
+        font-family: 'MyCustomFont';
+        src:url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'MyFont';
+        src:url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype')
+      } 
+    .section1{
+        display: block;
+        margin: auto;
+        width: 400px;
+        background-color: white ;
+        border-radius: 1rem;
+    }
+    .section2{
+        width: 350px;
+        margin-left: 1.95rem;
+        margin-right: 2rem;
+        margin-top: 48px;
+    }
+    .head{
+        margin: auto;
+        
+    }
+    img{
+        height: 200px;
+        width: 100%;
+        padding-top: 30px;
+        border-radius: 1rem
+    }
+    h1{
+    padding: 1.5rem 0rem 1rem 0rem;
+    font-family: 'MyCustomFont';
+    color: rgb(36, 34, 34);
+    }
+    .p1{
+    font-family: 'MyFont';
+    font-size: 17px;
+    color:  rgb(36, 34, 34);
+    padding-bottom: 1rem;
+    letter-spacing: 0.1px;
+    }
+    .section3{
+        background-color: rgba(247, 168, 181, 0.24);
+        border-radius: 0.7rem;
+        font-family: 'MyFont';
+    }
+    h3{
+        
+        padding: 1rem 1.2rem ;
+        color: rgb(107, 11, 59);
+        font-size: 19px;
+    }
+    .subsec3{
+        margin-left: 2rem;
+        padding-bottom: 14px;
+    }
+    li{
+        font-size: 17px;
+        color: rgb(36, 34, 34);
+        padding-bottom: 13px;
+        
+    }
+    .subsec3 li::marker {
+        color:rgb(107, 11, 59) ;
+    }
+    span.sp1{
+        font-size: 17px;
+        font-weight: bold; 
+    }
+    h2{
+        font-family: 'MycustomFont';
+        color: rgb(148, 64, 26);
+        letter-spacing: 2px;
+        padding-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    .subsec4{
+        margin-left: 0.7rem;
+        padding-bottom: 14px;
+        font-family: 'MyFont';
+    }
+    .subsec4 li::marker {
+        color:rgb(148, 64, 26);
+    }
+    .subsec5{
+        margin-left: 1.5rem;
+        padding-bottom: 14px;
+        font-family: 'MyFont';
+    }
+    span.sp5{
+        font-size: 18px;
+        font-weight: bold; 
+    }
+    .sec6{
+        font-family: 'MyFont';
+        padding-bottom: 1rem;
+    }
+    .p6{
+        font-family: 'MyFont';
+        padding: 1rem 0rem 0.7rem 2rem;
+    }
+    span.span61{
+        padding-left: 37%;
+        color:rgb(148, 64, 26);
+        font-weight: bold;
+    }
+    span.span62{
+        padding-left: 42%;
+        color:rgb(148, 64, 26);
+        font-weight: bold;
+    }
+    span.span63{
+        padding-left: 38%;
+        color:rgb(148, 64, 26);
+        font-weight: bold;
+    }
+    span.span64{
+        padding-left: 44.5%;
+        color:rgb(148, 64, 26);
+        font-weight: bold;
+    }
+    .centered-link {
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+        padding-top: 2rem;
+        padding-left: 1.5rem;
+        font-family: 'MyFont';
+        font-size: 20px;
+        color:rgb(148, 64, 26) ;
+      }
+      /* Unvisited link */
+    a:link {
+    color: rgb(148, 64, 26);
+    text-decoration: none;
+    }
+    a:visited {
+    color: rgb(126, 87, 25);
+    }
+    a:hover {
+    color: rgb(49, 47, 47);
+    text-decoration: underline;
+    }
+    a:active {
+    color: green;
+    }
+
+}
